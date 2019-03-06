@@ -34,10 +34,14 @@ func main() {
 
             readline(record)
         }
+
+        fmt.Println("acabose")
 }
 
 func readline(line []string) {
-    state := line[5]
-    bornDecade := line[1][:len(line[1]) - 1] + '0'
-    fmt.Println(state + bornDecade)
+    //state := line[5]
+    //bornDecade := line[1][:len(line[1]) - 1] + "0"
+    //childRace := line[7]
+    //isMale := line[6]
+    //fmt.Println(state + bornDecade)
 }
